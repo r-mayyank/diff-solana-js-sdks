@@ -27,7 +27,7 @@ async function main() {
             mintKeypair.publicKey,
             6,
             feePayer.publicKey,
-            null,
+            feePayer.publicKey,
             TOKEN_PROGRAM_ID
         );
 
